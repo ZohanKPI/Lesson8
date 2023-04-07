@@ -8,8 +8,7 @@ my_list1 = [1,2,3]
 my_list2 = []
 for i in range (3):
     my_list2.append(random.randint(1,5))
-
+my_list3 = ['Python', 'Java', 'C++']
 mane_function(my_list1)
 mane_function(my_list2)
-
-
+mane_function(my_list3)
