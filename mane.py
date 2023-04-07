@@ -12,4 +12,11 @@ for i in range (3):
 mane_function(my_list1)
 mane_function(my_list2)
 
+def test_function(x,y):
+    return x+y
+
+int1 = 3
+int2 = 4
+
+test_function(int1, int2)
 
