@@ -12,3 +12,15 @@ my_list3 = ['Python', 'Java', 'C++']
 mane_function(my_list1)
 mane_function(my_list2)
 mane_function(my_list3)
+def test_function(x,y,z):
+    if x > y and x > z:
+        return x
+    elif y > x and y > z:
+        return y
+    else:
+        return z
+
+int1 = 3
+int2 = 4
+int3 = 5
+test_function(int1, int2, int3)
