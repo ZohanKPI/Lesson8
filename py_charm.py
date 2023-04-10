@@ -13,3 +13,10 @@ def mane_function(x,y,z):
         return y
     else:
         return z
+def test_function(a,b,c):
+    if isinstance(a, int):
+        print(f"{a} is an integer!")
+    if isinstance(b, int):
+        print(f"{b} is an integer!")
+    if isinstance(c, int):
+        print(f"{c} is an integer!")
