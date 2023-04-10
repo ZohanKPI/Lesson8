@@ -14,6 +14,13 @@ def mane_function(x,y,z):
     else:
         return z
 def test_function(a,b,c):
+    if isinstance(a, str):
+        print(f"{a} is a string!")
+    if isinstance(b, str):
+        print(f"{b} is a string!")
+    if isinstance(c, str):
+        print(f"{c} is a string!")
+def test_function(a,b,c):
     if isinstance(a, int):
         print(f"{a} is an integer!")
     if isinstance(b, int):
